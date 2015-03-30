@@ -11,7 +11,7 @@
 
   subsubtitle = \markup {
     \override #'(font-name . "Microsoft YaHei Light" )
-    "1925年发表，2005年百年校庆正式恢复校歌地位"
+    "1925年发表"
   }
   composer = \markup {
     \override #'(font-name . "Microsoft YaHei Light")

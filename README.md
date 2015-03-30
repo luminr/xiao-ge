@@ -6,7 +6,7 @@
 
 欢迎添砖加瓦。使用 Pull Request 或[在维基百科上给我留言](https://zh.wikipedia.org/wiki/User_talk:LUMINR)。
 
-[本计划的Wiki](https://github.com/luminr/xiao-ge/wiki)也开放编辑，如果只是添加附加信息，可以直接更改。
+[本计划的Wiki](https://github.com/luminr/xiao-ge/wiki)也开放编辑，如果只是添加附加信息，可以直接修改。
 
 ### 编辑帮助
 

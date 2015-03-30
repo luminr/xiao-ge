@@ -1,6 +1,6 @@
-﻿# [点此浏览歌谱](https://github.com/luminr/xiao-ge/wiki)
+# [点此浏览歌谱](https://github.com/luminr/xiao-ge/wiki)
 
-# 1949年前的中文校歌的搜集计划
+# 老校歌搜集计划
 
 本计划收集1949年前创作的中文校歌。
 

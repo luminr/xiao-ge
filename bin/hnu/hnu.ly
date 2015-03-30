@@ -28,11 +28,11 @@
   {
     \relative c'{
       \key c \major \time 4/4 \tempo 4 = 88
-      e4. e8 c2 | e4. e8 d4 g | a4. g8 e4 g | d2. r4 |
-      e4. d8 c4 d | e4. e8 d4 g | a4. g8 d4 e | c2. r4 |
-      c'4. c8 a4 c | g4. g8 e4 g | a4. g8 a4 c | g2. r4 |
-      e4. d8 c4 d | e4. e8 d4 g | a4. g8 d4 e | c2. r4 |
-      d4. d8 d2 | g4. g8 g2 | g4. d8 b'4. a8 | g2. r4 |
+      e4. e8 c2 | e4. e8 d4 g | a4. g8 e4 g | d2. r4 | \break
+      e4. d8 c4 d | e4. e8 d4 g | a4. g8 d4 e | c2. r4 | \break
+      c'4. c8 a4 c | g4. g8 e4 g | a4. g8 a4 c | g2. r4 | \break
+      e4. d8 c4 d | e4. e8 d4 g | a4. g8 d4 e | c2. r4 | \break
+      d4. d8 d2 | g4. g8 g2 | g4. d8 b'4. a8 | g2. r4 | \break
       d4. d8 d2 | g4. g8 g2 | c4. g8 e4. d8 | c2. r4 |
 
       \bar "|."

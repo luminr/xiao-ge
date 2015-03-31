@@ -1,23 +1,23 @@
-\version "2.19.17"
+\version "2.18.2"
 \header {
   title = \markup {
-    \override #'(font-name . "Microsoft YaHei Light")
+    \override #'(font-name . "SimHei")
     "西山苍苍"
   }
   subtitle = \markup {
-    \override #'(font-name . "Microsoft YaHei Light")
+    \override #'(font-name . "SimSun")
     "清华大学校歌"
   }
   subsubtitle = \markup {
-    \override #'(font-name . "Microsoft YaHei Light" )
+    \override #'(font-name . "SimSun" )
     "1923年审定接受为校歌"
   }
   composer = \markup {
-    \override #'(font-name . "Microsoft YaHei Light")
+    \override #'(font-name . "SimSun")
     "张丽真曲"
   }
   poet = \markup {
-    \override #'(font-name . "Microsoft YaHei Light")
+    \override #'(font-name . "SimSun")
     "汪鸾翔词"
   }
   copyright = \markup { \with-url #"https://github.com/luminr/xiao-ge"  { https://github.com/luminr/xiao-ge }}
@@ -72,7 +72,7 @@
       \override VerticalAxisGroup #'staff-affinity = #CENTER
       \override LyricText.self-alignment-X = #LEFT
       \override LyricText.font-size = #-1
-      \override LyricText.font-name = #"Microsoft YaHei Light"
+      \override LyricText.font-name = #"SimSun"
     }
   }
   \midi {}

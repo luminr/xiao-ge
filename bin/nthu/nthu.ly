@@ -1,27 +1,27 @@
 \version "2.19.17"
 \header {
   title = \markup {
-    \override #'(font-name . "Microsoft JhengHei Light")
+    \override #'(font-name . "MingLiU") \bold
     "西山蒼蒼"
   }
   subtitle = \markup {
-    \override #'(font-name . "Microsoft JhengHei Light")
+    \override #'(font-name . "MingLiu")
     "國立清華大學校歌"
   }
   subsubtitle = \markup {
-    \override #'(font-name . "Microsoft JhengHei Light" )
+    \override #'(font-name . "MingLiu" )
     "1923年審定膺選為校歌，1930年編合唱"
   }
   composer = \markup {
-    \override #'(font-name . "Microsoft JhengHei Light")
+    \override #'(font-name . "MingLiu")
     "張麗真 作曲"
   }
   arranger = \markup {
-    \override #'(font-name . "Microsoft JhengHei Light")
+    \override #'(font-name . "MingLiu")
     "趙元任 編曲"
   }
   poet = \markup {
-    \override #'(font-name . "Microsoft JhengHei Light")
+    \override #'(font-name . "MingLiu")
     "汪鸞翔 作詞"
   }
   copyright = \markup { \with-url #"https://github.com/luminr/xiao-ge"  { https://github.com/luminr/xiao-ge }}
@@ -36,7 +36,7 @@
         \voiceOne
         \key c \major \time 4/4 \tempo 4 = 88
         \repeat volta 3 {
-          c4 c8( e) g4 g | a4 c8( a) g4 g | e4 e g8( e) c4 | a4 c8 e-\markup { \override #'(font-name . "Microsoft JhengHei Light") 亦有作F } g2 |
+          c4 c8( e) g4 g | a4 c8( a) g4 g | e4 e g8( e) c4 | a4 c8 e-\markup { \override #'(font-name . "MingLiu") 亦有作F } g2 |
           a4 a a8( c) g4 | e4 d e8( d) c4 | d4 g g8( fis) g4 | a4 a b8( a) g4 |
           c4. c8 a4 c | g4. a8 g2 | a4. a8 g4 e | d4 d8( e) g2 |
           c,4. c8 c4 e | d4 e8( d) c2 | a'4. a8 g4 e | d4 d8( e) c2 |
@@ -110,7 +110,7 @@
       \override VerticalAxisGroup #'staff-affinity = #CENTER
       \override LyricText.self-alignment-X = #LEFT
       \override LyricText.font-size = #-1
-      \override LyricText.font-name = #"Microsoft JhengHei Light"
+      \override LyricText.font-name = #"MingLiu"
     }
   }
   \midi {}

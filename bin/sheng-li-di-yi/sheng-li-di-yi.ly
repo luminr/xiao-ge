@@ -4,13 +4,10 @@
     \override #'(font-name . "SimHei")
     "浙江省立第一师范学校校歌"
   }
+
   subtitle = \markup {
-    \override #'(font-name . "SimSun")
-    "杭州师范大学校歌"
-  }
-  subsubtitle = \markup {
     \override #'(font-name . "SimSun" )
-    "1914年创作"
+    "1914年"
   }
   composer = \markup {
     \override #'(font-name . "SimSun")

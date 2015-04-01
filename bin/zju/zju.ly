@@ -2,15 +2,11 @@
 \header {
   title = \markup {
     \override #'(font-name . "SimHei")
-    "大不自多"
-  }
-  subtitle = \markup {
-    \override #'(font-name . "SimSun")
     "浙江大学校歌"
   }
-  subsubtitle = \markup {
+  subtitle = \markup {
     \override #'(font-name . "SimSun" )
-    "1938年并经校务会议通过"
+    "1938年"
   }
   composer = \markup {
     \override #'(font-name . "SimSun")

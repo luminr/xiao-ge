@@ -1,6 +1,6 @@
 \version "2.18.2"
 \header {
-  subtitle = \markup {
+  subsubtitle = \markup {
     \override #'(font-name . "SimSun")
     "曲调自1815-1932年荷兰国歌《尼德兰人的血脉》"
   }
@@ -9,9 +9,9 @@
     "复旦大学校歌"
   }
 
-  subsubtitle = \markup {
+  subtitle = \markup {
     \override #'(font-name . "SimSun" )
-    "1925年发表"
+    "1925年"
   }
   composer = \markup {
     \override #'(font-name . "SimSun")

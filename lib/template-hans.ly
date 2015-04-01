@@ -5,10 +5,6 @@
     "原名"
   }
   subtitle = \markup {
-    \override #'(font-name . "SimSun")
-    "校歌"
-  }
-  subsubtitle = \markup {
     \override #'(font-name . "SimSun" )
     "年份"
   }

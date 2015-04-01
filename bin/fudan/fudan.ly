@@ -6,9 +6,9 @@
     "复旦大学校歌"
   }
 
-  subsubtitle = \markup {
+  subtitle = \markup {
     \override #'(font-name . "SimSun" )
-    "1925年发表，2005年百年校庆正式恢复校歌地位"
+    "1925年"
   }
   composer = \markup {
     \override #'(font-name . "SimSun")

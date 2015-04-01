@@ -5,16 +5,12 @@
     "浙江省立第十中学校歌"
   }
   subtitle = \markup {
-    \override #'(font-name . "SimSun")
-    "温州中学校歌"
-  }
-  subsubtitle = \markup {
     \override #'(font-name . "SimSun" )
     "1923年"
   }
   composer = \markup {
     \override #'(font-name . "SimSun")
-    "阮湘咸曲"
+    "阮湘咸曲"   %找不到作词者资料，暂不列出
   }
   poet = \markup {
     \override #'(font-name . "SimSun")

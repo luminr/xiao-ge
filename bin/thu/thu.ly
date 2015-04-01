@@ -1,16 +1,13 @@
 \version "2.18.2"
 \header {
+
   title = \markup {
-    \override #'(font-name . "SimHei")
-    "西山苍苍"
-  }
-  subtitle = \markup {
     \override #'(font-name . "SimSun")
     "清华大学校歌"
   }
-  subsubtitle = \markup {
+  subtitle = \markup {
     \override #'(font-name . "SimSun" )
-    "1923年审定接受为校歌"
+    "1923年创作"
   }
   composer = \markup {
     \override #'(font-name . "SimSun")

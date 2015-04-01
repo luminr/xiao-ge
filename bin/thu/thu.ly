@@ -2,7 +2,7 @@
 \header {
 
   title = \markup {
-    \override #'(font-name . "SimSun")
+    \override #'(font-name . "SimHei")
     "清华大学校歌"
   }
   subtitle = \markup {

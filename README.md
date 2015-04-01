@@ -18,7 +18,7 @@
 
 ### 流程
 
-* 将准备写进计划的歌曲提交至Issue，标记Help Wanted。
+* 将准备写进计划的歌曲提交至Issue。
 * 确定歌曲信息（作者、年份、版本、版权），附注参考链接，填写在Wiki上。
 * 寻找可用歌谱或制作歌谱。使用[模板](https://github.com/luminr/xiao-ge/blob/master/lib/template-hans.ly)。
 * 完善Wiki页面，更新索引页。

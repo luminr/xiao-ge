@@ -4,7 +4,7 @@
 
 本计划收集1949年前创作的中文校歌。
 
-这里的内容本来是[Wikipedia:大中华地区高等学校校歌列表](https://zh.wikipedia.org/wiki/User:LUMINR/%E5%A4%A7%E4%B8%AD%E5%8D%8E%E5%9C%B0%E5%8C%BA%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1%E6%A0%A1%E6%AD%8C%E5%88%97%E8%A1%A8)计划的一部分，但因为一些校歌未完全进入公有领域，遵照维基媒体的政策不能登载于它的系列项目上。因此转到这里自己承担版权风险，继续搜集工作，并上传源代码。
+这里的内容本来是[Wikipedia:大中华地区高等学校校歌列表][1]计划的一部分，但因为一些校歌未完全进入公有领域，遵照维基媒体的政策不能登载于它的系列项目上。因此转到这里自己承担版权风险，继续搜集工作，并上传源代码。
 
 ## 贡献
 
@@ -20,18 +20,35 @@
 
 * 将准备写进计划的歌曲提交至Issue。
 * 确定歌曲信息（作者、年份、版本、版权），附注参考链接，填写在Wiki上。
-* 寻找可用歌谱或制作歌谱。使用[模板](https://github.com/luminr/xiao-ge/blob/master/lib/template-hans.ly)。
+* 寻找可用歌谱或制作歌谱。使用[模板](/lib/template-hans.ly)。
 * 完善Wiki页面，更新索引页。
-* 完善[Wikipedia:大中华地区高等学校校歌列表](https://zh.wikipedia.org/wiki/User:LUMINR/%E5%A4%A7%E4%B8%AD%E5%8D%8E%E5%9C%B0%E5%8C%BA%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1%E6%A0%A1%E6%AD%8C%E5%88%97%E8%A1%A8)页面，适当更新各学校维基百科页面。
+* 完善[Wikipedia:大中华地区高等学校校歌列表][1]页面，适当更新各学校维基百科页面。
 * 结束Issue。
 * 待歌谱进入公共领域，提交至维基文库，更新索引页，更新维基列表，更新学校页面。
 
+#### 进入公有领域时间的计算方法
+
+参考[Wikisource:版权信息/简明](https://zh.wikisource.org/wiki/Wikisource:%E7%89%88%E6%9D%83%E4%BF%A1%E6%81%AF/%E7%AE%80%E6%98%8E)。这里只列出本计划内可能涉及到的版权情况。
+##### 两岸四地
+* 最后去世的作者去世50年后（第51年的1月1日）
+
+##### 美国
+因为维基媒体系列网站的服务器设置在美国，在此列出美国的版权法的计算方法。
+* 1922年前发布的作品已进入公有领域。
+* 1923年至1977年发布的作品
+ * 若作者逝于1945年前，即1996年1月1日作品在出版地已进入公有领域，则在美国也已进入公有领域。
+ * 若作者逝于1946年后，则于作品发表95年后（第96年的1月1日）进入公有领域。满足这一条件的作品最早（1923年发布）也是在2019年进入公有领域。
+
+若您是本项目中作品的著作权人，且不希望您的作品在本计划中被列出，请[点此发出投诉](https://github.com/luminr/xiao-ge/issues/new)。
+
 ### 堆积工作
 
-请看[Issues](https://github.com/luminr/xiao-ge/issues)。
+请见[Issues](https://github.com/luminr/xiao-ge/issues)。
 
 ## 授权
 
 ![Creative Commons License Attribution-ShareAlike 4.0 International](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
-感谢您的贡献，本计划的文件和乐谱会以以知识共享署名-相同方式共享 4.0 国际许可协议（CC-BY-SA 4.0 International）授权使用。详情请见[Wiki首页](https://github.com/luminr/xiao-ge/wiki#%E6%8E%88%E6%9D%83)。
+感谢您的贡献，本计划的文件和乐谱会以以知识共享署名-相同方式共享 4.0 国际许可协议（CC-BY-SA 4.0 International）授权使用。详情请见[Wiki#授权](https://github.com/luminr/xiao-ge/wiki#%E6%8E%88%E6%9D%83)。
+
+[1]: https://zh.wikipedia.org/wiki/User:LUMINR/%E5%A4%A7%E4%B8%AD%E5%8D%8E%E5%9C%B0%E5%8C%BA%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1%E6%A0%A1%E6%AD%8C%E5%88%97%E8%A1%A8

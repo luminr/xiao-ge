@@ -11,11 +11,11 @@
   }
   composer = \markup {
     \override #'(font-name . "SimSun")
-    "夏丏尊曲"
+    "李叔同曲"
   }
   poet = \markup {
     \override #'(font-name . "SimSun")
-    "李叔同词"
+    "夏丏尊词"
   }
   copyright = \markup { \with-url #"https://github.com/luminr/xiao-ge"  { https://github.com/luminr/xiao-ge } CC-BY-SA 4.0 }
   tagline = \markup { Engraved at \simple #(strftime "%Y-%m-%d" (localtime (current-time))) with  LilyPond \simple #(lilypond-version) }

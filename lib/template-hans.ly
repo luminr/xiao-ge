@@ -22,7 +22,7 @@
 \score{
   {
     \transpose c c \relative c'{
-      \key c \major \time 4/4 \tempo 4 = 100
+      \key c \major \time 4/4
 
       \bar "|."
     }
@@ -37,5 +37,5 @@
     \override LyricText.font-size = #-1
     \override LyricText.font-name = #"SimSun"
   }
-  \midi {}
+  \midi { \tempo 4 = 100 }
 }

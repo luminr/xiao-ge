@@ -1,19 +1,19 @@
 \version "2.18.2"
 \header {
   title = \markup {
-    \override #'(font-name . "DFKai-SB") \bold
+    \override #'(font-name . "PMingLiU") \bold
     "中山大學校歌"
   }
   subtitle = \markup {
-    \override #'(font-name . "DFKai-SB" )
+    \override #'(font-name . "PMingLiU" )
     ""
   }
   composer = \markup {
-    \override #'(font-name . "DFKai-SB")
+    \override #'(font-name . "PMingLiU")
     "陳洪 作曲"
   }
   poet = \markup {
-    \override #'(font-name . "DFKai-SB")
+    \override #'(font-name . "PMingLiU")
     "鄒魯 作詞"
   }
   copyright = \markup { \with-url #"https://github.com/luminr/xiao-ge"  { https://github.com/luminr/xiao-ge } CC-BY-SA 4.0 }
@@ -23,10 +23,10 @@
   {
     \transpose c g \relative c'{
       \key c \major \time 4/4
-      g4 c c4. d8 | e4 f e d | d c b4. a8 | b4 c8 a g2 | \break
-      g4 c c4. d8 | e4 f a g | g f e4. d8 | c4 d8 b c2 | \break
-      d4 g, e' c | f4. e8 d4 c | e4 f a g | f4. c8 d4 e | \break
-      e4. d8 d4 d | d2 e4. fis8 | g1\fermata | \break
+      g4 c c4. d8 | e4 f e d | d c b4. a8 | b4 c8 a g2 |
+      g4 c c4. d8 | e4 f a g | g f e4. d8 | c4 d8 b c2 |
+      d4 g, e' c | f4. e8 d4 c | e4 f a g | f4. c8 d4 e |
+      e4. d8 d4 d | d2 e4. fis8 | g1\fermata |
       g,4 c c4. d8 | e4 f a g | g f e4. d8 | c4 d8 b c2 \bar "|."
     }
     \addlyrics {
@@ -42,10 +42,11 @@
     }
   }
   \layout {
-    \override VerticalAxisGroup #'staff-affinity = #CENTER
-    \override LyricText.self-alignment-X = #LEFT
-    \override LyricText.font-size = #-1
-    \override LyricText.font-name = #"DFKai-SB"
+    \override Lyrics.VerticalAxisGroup #'staff-affinity = #CENTER
+    \override Lyrics.LyricText.self-alignment-X = #LEFT
+    \override Lyrics.LyricText.font-size = #-1
+    \override Lyrics.LyricText.font-name = #"PMingLiU"
+    \override Score.SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/32)
   }
   \midi { \tempo 4 = 75 }
 }

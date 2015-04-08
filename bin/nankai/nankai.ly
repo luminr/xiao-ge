@@ -37,9 +37,9 @@ verse = \lyricmode {
       \relative c'{
         \key c \major \time 3/4
         \partial 4 g4 |
-        c8. c16 c4 d | e8. e16 e2 | d8. e16 f4 b, | d8. c16 c4 g | \break
-        c8. c16 c4 d | e8. e16 e2 | d8. e16 f4 b, | d8. c16 c4 r8 g' | \break
-        g8. e16 a4. g8 | g8. f16 f4 r8 f | f8. d16 g4. f8 | f8. e16 e4 g, | \break
+        c8. c16 c4 d | e8. e16 e2 | d8. e16 f4 b, | d8. c16 c4 g |
+        c8. c16 c4 d | e8. e16 e2 | d8. e16 f4 b, | d8. c16 c4 r8 g' |
+        g8. e16 a4. g8 | g8. f16 f4 r8 f | f8. d16 g4. f8 | f8. e16 e4 g, |
         c8. c16 c4 d | e8. e16 e2 | d8. e16 f4 b, | d8. c16 c2  \bar "|."
       }
       \addlyrics \verse
@@ -78,9 +78,10 @@ verse = \lyricmode {
     >>
   }
   \layout {
-    \override VerticalAxisGroup #'staff-affinity = #CENTER
-    \override LyricText.self-alignment-X = #LEFT
-    \override LyricText.font-size = #-1
+    \override Lyrics.VerticalAxisGroup #'staff-affinity = #CENTER
+    \override Lyrics.LyricText.self-alignment-X = #LEFT
+    \override Lyrics.LyricText.font-size = #-1
+    \override Score.SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/32)
     \override LyricText.font-name = #"SimSun"
   }
   \midi { \tempo 4 = 100 }

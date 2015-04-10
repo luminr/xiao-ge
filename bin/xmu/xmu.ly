@@ -25,13 +25,13 @@
       \key c \major \time 2/4
       \repeat volta 2 {
         g8 g4. | g8 g4. | a8( g) e c' | g2 | g4 d8( g) |
-        b4 b8 c | b8( a) g( fis) | g2~ | g4 r | \break
-        g4 g | c4. g8 | e4 e8 g | c4. g8 | a8( g f e) | d2~ | d4 r | \break
+        b4 b8 c | b8( a) g( fis) | g2~ | g4 r |
+        g4 g | c4. g8 | e4 e8 g | c4. g8 | a8( g f e) | d2~ | d4 r |
         c8( b) a f' | e4 d8. d16 | c2 | c4 e8 g |
       }
       \alternative {
         {
-          a4 g8. g16 | c2\fermata \bar "||" \break
+          a4 g8. g16 | c2\fermata \bar "||"
         }
         { c4^"rit." \slashedGrace e16( d8.)\fermata^\markup{ \italic molto } c16 | c2\fermata   \bar "|." }
       }
@@ -51,10 +51,11 @@
     }
   }
   \layout {
-    \override VerticalAxisGroup #'staff-affinity = #CENTER
-    \override LyricText.self-alignment-X = #LEFT
-    \override LyricText.font-size = #-1
-    \override LyricText.font-name = #"PMingLiU"
+    \override Lyrics.VerticalAxisGroup #'staff-affinity = #CENTER
+    \override Lyrics.LyricText.self-alignment-X = #LEFT
+    \override Lyrics.LyricText.font-size = #-1
+    \override Lyrics.LyricText.font-name = #"PMingLiU"
+    \override Score.SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/32)
   }
   \midi {
     \tempo 4 = 100

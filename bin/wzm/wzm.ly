@@ -10,7 +10,7 @@
   }
   composer = \markup {
     \override #'(font-name . "SimSun")
-    "阮湘咸曲"   %找不到作词者资料，暂不列出
+    "阮湘咸曲"
   }
   poet = \markup {
     \override #'(font-name . "SimSun")
@@ -22,11 +22,11 @@
 \score{
   {
     \transpose c f \relative c'{
-      \key c \major \time 4/4 \tempo 4 = 100 \dynamicUp
+      \key c \major \time 4/4  \dynamicUp
       \partial 4  % g4 | c4. d8 e f g4 | a4 g f e | d8 e d a g4 d' | c2.
-      g4 | c4. b8 c4 e | d4 c g'2 |  a4. g8 e4 c | d2. g4 | \break
-      e4 d8( c) a2 | g4 c d e | d4. c8 g'2 | g4 g e c | \break
-      d4 e8( f) e2 | a4-> a-> g8( f) e4 | d4-> g-> e8( d e g) | c,2. a4 | \break
+      g4 | c4. b8 c4 e | d4 c g'2 |  a4. g8 e4 c | d2. g4 |
+      e4 d8( c) a2 | g4 c d e | d4. c8 g'2 | g4 g e c |
+      d4 e8( f) e2 | a4-> a-> g8( f) e4 | d4-> g-> e8( d e g) | c,2. a4 |
       c4 d8( e) d( c) g'4 | e2. d8( e) | d8( a) g4 e' d8.( b16) | c2. r4  \bar "|."
     }
     \addlyrics {
@@ -35,10 +35,12 @@
     }
   }
   \layout {
-    \override VerticalAxisGroup #'staff-affinity = #CENTER
-    \override LyricText.self-alignment-X = #LEFT
-    \override LyricText.font-size = #-1
-    \override LyricText.font-name = #"SimSun"
+    \override Lyrics.VerticalAxisGroup #'staff-affinity = #CENTER
+    \override Lyrics.LyricText.self-alignment-X = #LEFT
+    \override Lyrics.LyricText.font-size = #-1
+    \override Lyrics.LyricText.font-name = #"PMingLiU"
+    \override Score.SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/32)
+
   }
-  \midi {}
+  \midi { \tempo 4 = 100 }
 }

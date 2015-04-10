@@ -24,13 +24,13 @@
 \score{
   \transpose c ees \relative c'
   {
-    \key c \major \time 4/4 \tempo 4 = 88
+    \key c \major \time 4/4
     \repeat volta 3 {
-      c4 c8( e) g4 g | a4 c8( a) g4 g | e4 e g8( e) c4 | a4 c8 d g2 | \break
-      a4 a a8( c) g4 | e4 d e8( d) c4 | d4 g g8( fis) g4 | a4 a b8( a) g4 | \break
-      c4. c8 a4 c | g4. a8 g2 | a4. a8 g4 e | d4 d8( e) g2 | \break
-      c,4. c8 c4 e | d4 e8( d) c2 | a'4. a8 g4 e | d4 d8( e) c2 | \break
-      c'4 c2 r4 | a4 a2 r4 | g4 g a g | d4 e g2 | \break
+      c4 c8( e) g4 g | a4 c8( a) g4 g | e4 e g8( e) c4 | a4 c8 d g2 |
+      a4 a a8( c) g4 | e4 d e8( d) c4 | d4 g g8( fis) g4 | a4 a b8( a) g4 |
+      c4. c8 a4 c | g4. a8 g2 | a4. a8 g4 e | d4 d8( e) g2 |
+      c,4. c8 c4 e | d4 e8( d) c2 | a'4. a8 g4 e | d4 d8( e) c2 |
+      c'4 c2 r4 | a4 a2 r4 | g4 g a g | d4 e g2 |
       c4 c2 r4 | a4 a2 r4 | g4 g a g | d e8( d) c2 |
     }
   }
@@ -64,13 +64,12 @@
   }
 
   \layout {
-    \context {
-      \Lyrics
-      \override VerticalAxisGroup #'staff-affinity = #CENTER
-      \override LyricText.self-alignment-X = #LEFT
-      \override LyricText.font-size = #-1
-      \override LyricText.font-name = #"SimSun"
-    }
+    \override Lyrics.VerticalAxisGroup #'staff-affinity = #CENTER
+    \override Lyrics.LyricText.self-alignment-X = #LEFT
+    \override Lyrics.LyricText.font-size = #-1
+    \override Lyrics.LyricText.font-name = #"PMingLiU"
+    \override Score.SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/32)
+
   }
-  \midi {}
+  \midi { \tempo 4 = 88 }
 }

@@ -23,12 +23,12 @@
   {
     \transpose c g \relative c'{
       \key c \major \time 4/4 \tempo \markup { \override #'(font-name . "SimSun")  "中速"  }
-      e2 c | g e' | g f | e2. r4 | \break
-      d2 d | c4 b c2 | e4 d d c | d2 g, | \break
-      e' c | g4 c e2 | g2 f | e d | \break
-      d4 d e d | c b c e | e2 d4 c | d2 c | \break
-      g'4 g g g | a2 g | g g | g4 g g2 |  a d, | fis g | \break
-      e c | g4 c e2 | g2 f | e d | \break
+      e2 c | g e' | g f | e2. r4 |
+      d2 d | c4 b c2 | e4 d d c | d2 g, |
+      e' c | g4 c e2 | g2 f | e d |
+      d4 d e d | c b c e | e2 d4 c | d2 c |
+      g'4 g g g | a2 g | g g | g4 g g2 |  a d, | fis g |
+      e c | g4 c e2 | g2 f | e d |
       d d | c4 b c2 | e2  d | d c\fermata  \bar "|."
     }
     \addlyrics {
@@ -36,10 +36,11 @@
     }
   }
   \layout {
-    \override VerticalAxisGroup #'staff-affinity = #CENTER
-    \override LyricText.self-alignment-X = #LEFT
-    \override LyricText.font-size = #-1
-    \override LyricText.font-name = #"SimSun"
+    \override Lyrics.VerticalAxisGroup #'staff-affinity = #CENTER
+    \override Lyrics.LyricText.self-alignment-X = #LEFT
+    \override Lyrics.LyricText.font-size = #-1
+    \override Lyrics.LyricText.font-name = #"PMingLiU"
+    \override Score.SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/32)
   }
   \midi { \tempo 4 = 100 }
 }

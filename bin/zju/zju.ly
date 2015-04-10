@@ -22,7 +22,7 @@
 \score{
   {
     \transpose c d \relative c'{
-      \key c \major \time 3/4 \tempo 4 = 112
+      \key c \major \time 3/4
       e4 e e | g2 c,4 | d2 f4 | e2 g4 | a4( g) f | a2 r4 | a4 b a | g2 g4 |
       c2 b8( a) | g4.( f8) e4 | a4 d, e | d2 r4 | e4 e a | a4.( g8) g4 | g4 g c |  b2 b8 c8 |
       d8( c) b( a) g4 | d4 a' b, | c2.\fermata \bar "||"
@@ -35,13 +35,12 @@
     }
   }
   \layout {
-    \context {
-      \Lyrics
-      \override VerticalAxisGroup #'staff-affinity = #CENTER
-      \override LyricText.self-alignment-X = #LEFT
-      \override LyricText.font-size = #-1
-      \override LyricText.font-name = #"SimSun"
-    }
+    \override Lyrics.VerticalAxisGroup #'staff-affinity = #CENTER
+    \override Lyrics.LyricText.self-alignment-X = #LEFT
+    \override Lyrics.LyricText.font-size = #-1
+    \override Lyrics.LyricText.font-name = #"PMingLiU"
+    \override Score.SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/32)
+
   }
-  \midi {}
+  \midi { \tempo 4 = 112 }
 }

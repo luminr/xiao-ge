@@ -56,10 +56,11 @@ verse = \lyricmode { 大 哉 師 道 天 下 尊， 承 往 哲 兮 啟 後 人�
 
   }
   \layout {
-    \override VerticalAxisGroup #'staff-affinity = #CENTER
-    \override LyricText.self-alignment-X = #LEFT
-    \override LyricText.font-size = #-1
-    \override LyricText.font-name = #"PMingLiU"
+    \override Lyrics.VerticalAxisGroup #'staff-affinity = #CENTER
+    \override Lyrics.LyricText.self-alignment-X = #LEFT
+    \override Lyrics.LyricText.font-size = #-1
+    \override Lyrics.LyricText.font-name = #"PMingLiU"
+    \override Score.SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/32)
   }
   \midi { \tempo 4 = 100 }
 }

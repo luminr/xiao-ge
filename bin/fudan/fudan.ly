@@ -29,9 +29,9 @@
       \key c \major \time 4/4 \tempo "alla marcia"  \dynamicUp
 
       \partial 4  g4 |
-      e'4. e8 f4 e | d2 c4 \breathe c8 c | f4 e d c | d2 r4 g, | \break
-      c4 g c b |  a4. b8 c4 \breathe d8 d | d4. b8 c4 a | g2 r4 g4 | \break
-      e'4 c2 g4 | a4 g2 a8 b |  c4 d e8 e4. | d4( c) d4. g,8 | \break
+      e'4. e8 f4 e | d2 c4 \breathe c8 c | f4 e d c | d2 r4 g, |
+      c4 g c b |  a4. b8 c4 \breathe d8 d | d4. b8 c4 a | g2 r4 g4 |
+      e'4 c2 g4 | a4 g2 a8 b |  c4 d e8 e4. | d4( c) d4. g,8 |
       c4 c d d | e8.( f16) g4\fermata c,4 a | f'4 e d d |  c2. r4  \bar ":|."
 
     }
@@ -50,10 +50,12 @@
   }
 
   \layout {
-    \override VerticalAxisGroup #'staff-affinity = #CENTER
-    \override LyricText.font-size = #-1
-    \override LyricText.self-alignment-X = #LEFT
-    \override LyricText.font-name = #"SimSun"
+    \override Lyrics.VerticalAxisGroup #'staff-affinity = #CENTER
+    \override Lyrics.LyricText.self-alignment-X = #LEFT
+    \override Lyrics.LyricText.font-size = #-1
+    \override Lyrics.LyricText.font-name = #"PMingLiU"
+    \override Score.SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/32)
+
   }
-  \midi { \tempo 4 = 100}
+  \midi { \tempo 4 = 100 }
 }

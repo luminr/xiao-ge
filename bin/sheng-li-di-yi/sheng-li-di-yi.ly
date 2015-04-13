@@ -1,21 +1,21 @@
 \version "2.18.2"
 \header {
   title = \markup {
-    \override #'(font-name . "SimHei")
-    "浙江省立第一师范学校校歌"
+    \override #'(font-name . "PMingLiU")
+    "浙江省立第一師範學校校歌"
   }
 
   subtitle = \markup {
-    \override #'(font-name . "SimSun" )
+    \override #'(font-name . "PMingLiU" )
     "1914年"
   }
   composer = \markup {
-    \override #'(font-name . "SimSun")
-    "李叔同曲"
+    \override #'(font-name . "PMingLiU")
+    "李叔同 作曲"
   }
   poet = \markup {
-    \override #'(font-name . "SimSun")
-    "夏丏尊词"
+    \override #'(font-name . "PMingLiU")
+    "夏丏尊 作詞"
   }
   copyright = \markup { \with-url #"https://github.com/luminr/xiao-ge"  { https://github.com/luminr/xiao-ge } CC-BY-SA 4.0 }
   tagline = \markup { Engraved at \simple #(strftime "%Y-%m-%d" (localtime (current-time))) with  LilyPond \simple #(lilypond-version) }
@@ -35,12 +35,12 @@
       \bar "|."
     }
     \addlyrics {
-      人 人 人， 代 謝 靡 盡， 先 後 覺 新 民。
-      可 能 可 能， 陶 冶 精 神， 道 德 潤 心 身。
-      吾 儕 同 學， 負 斯 重 任， 相 勉 又 相 親。
-      五 載 光 陰， 學 與 俱 進， 磐 固 我 根 本。
-      葉 蓁 蓁， 木 欣 欣， 碧 梧 萬 枝 新。
-      之 江 西， 西 湖 濱， 桃 李 一 堂 春。
+      人 人 人 代 謝 靡 盡 先 後 覺 新 民
+      可 能 可 能 陶 冶 精 神 道 德 潤 心 身
+      吾 儕 同 學 負 斯 重 任 相 勉 又 相 親
+      五 載 光 陰 學 與 俱 進 磐 固 我 根 本
+      葉 蓁 蓁 木 欣 欣 碧 梧 萬 枝 新
+      之 江 西 西 湖 濱 桃 李 一 堂 春
     }
   }
   \layout {

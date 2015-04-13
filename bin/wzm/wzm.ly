@@ -1,20 +1,20 @@
 \version "2.18.2"
 \header {
   title = \markup {
-    \override #'(font-name . "SimHei")
-    "浙江省立第十中学校歌"
+    \override #'(font-name . "PMingLiU")
+    "浙江省立第十中學校歌"
   }
   subtitle = \markup {
-    \override #'(font-name . "SimSun" )
+    \override #'(font-name . "PMingLiU" )
     "1923年"
   }
   composer = \markup {
-    \override #'(font-name . "SimSun")
-    "阮湘咸曲"
+    \override #'(font-name . "PMingLiU")
+    "阮湘咸 作曲"
   }
   poet = \markup {
-    \override #'(font-name . "SimSun")
-    "朱自清词"
+    \override #'(font-name . "PMingLiU")
+    "朱自清 作詞"
   }
   copyright = \markup { \with-url #"https://github.com/luminr/xiao-ge"  { https://github.com/luminr/xiao-ge } CC-BY-SA 4.0 }
   tagline = \markup { Engraved at \simple #(strftime "%Y-%m-%d" (localtime (current-time))) with  LilyPond \simple #(lilypond-version) }
@@ -30,8 +30,16 @@
       c4 d8( e) d( c) g'4 | e2. d8( e) | d8( a) g4 e' d8.( b16) | c2. r4  \bar "|."
     }
     \addlyrics {
-      雁 山 云 影, 瓯 海 潮 淙。 看 钟 灵 毓 秀, 桃 李 葱 茏。 怀 籀 亭 边 勤 讲 诵, 中 山 精 舍 坐 春 风。 英 奇 匡 国, 作 圣 启 蒙, 上 下 古 今 一 冶, 东 西 学 艺 攸 同。
-
+      雁 山 雲 影
+      甌 海 潮 淙
+      看 鐘 靈 毓 秀
+      桃 李 蔥 蘢
+      懷 籀 亭 邊 勤 講 誦
+      中 山 精 舍 坐 春 風
+      英 奇 匡 國
+      作 聖 啟 蒙
+      上 下 古 今 一 冶
+      東 西 學 藝 攸 同。
     }
   }
   \layout {

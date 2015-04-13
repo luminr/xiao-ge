@@ -1,20 +1,20 @@
 \version "2.18.2"
 \header {
   title = \markup {
-    \override #'(font-name . "SimHei")
-    "浙江大学校歌"
+    \override #'(font-name . "PMingLiU")
+    "浙江大學校歌"
   }
   subtitle = \markup {
-    \override #'(font-name . "SimSun" )
+    \override #'(font-name . "PMingLiU" )
     "1938年"
   }
   composer = \markup {
-    \override #'(font-name . "SimSun")
-    "应尚能曲"
+    \override #'(font-name . "PMingLiU")
+    "應尚能 作曲"
   }
   poet = \markup {
-    \override #'(font-name . "SimSun")
-    "马一浮词"
+    \override #'(font-name . "PMingLiU")
+    "馬一浮 作詞"
   }
   copyright = \markup { \with-url #"https://github.com/luminr/xiao-ge"  { https://github.com/luminr/xiao-ge } CC-BY-SA 4.0 }
   tagline = \markup { Engraved at \simple #(strftime "%Y-%m-%d" (localtime (current-time))) with  LilyPond \simple #(lilypond-version) }
@@ -31,7 +31,26 @@
     }
     \addlyrics {
       \set stanza = "(一)"
-      大 不 自 多 海 纳 江 河      惟 学 无 际 际 于 天 地      形 上 谓 道 兮 形 下 谓 器      礼 主 别 异 兮 乐 主 和 同      知 其 不 二 兮 尔 听 斯 聪  \set stanza = "(二)"      国 有 成 均 在 浙 之 滨      昔 言 求 是 实 启 尔 求 真      习 坎 示 教 始 见 经 纶      无 曰 己 是 无 曰 遂 真      靡 革 匪 因 靡 故 匪 新      何 以 新 之 开 物 前 民      嗟 尔 髦 士 尚 其 有 闻 \set stanza = "(三)"      念 哉 典 学 思 睿 观 通      有 文 有 质 有 农 有 工      兼 总 条 贯 知 至 知 终      成 章 乃 达 若 金 之 在 熔      尚 亨 于 野 无 吝 于 宗      树 我 邦 国 天 下 来 同
+      大 不 自 多 海 納 江 河
+      惟 學 無 際 際 於 天 地
+      形 上 謂 道 兮 形 下 謂 器
+      禮 主 別 異 兮 樂 主 和 同
+      知 其 不 二 兮 爾 聽 斯 聰
+      \set stanza = "(二)"
+      國 有 成 均 在 浙 之 濱
+      昔 言 求 是 實 啟 爾 求 真
+      習 坎 示 教 始 見 經 綸
+      無 曰 己 是 無 曰 遂 真
+      靡 革 匪 因 靡 故 匪 新
+      何 以 新 之 開 物 前 民
+      嗟 爾 髦 士 尚 其 有 聞
+      \set stanza = "(三)"
+      念 哉 典 學 思 睿 觀 通
+      有 文 有 質 有 農 有 工
+      兼 總 條 貫 知 至 知 終
+      成 章 乃 達 若 金 之 在 熔
+      尚 亨 於 野 無 吝 於 宗
+      樹 我 邦 國 天 下 來 同
     }
   }
   \layout {

@@ -1,21 +1,20 @@
 \version "2.18.2"
 \header {
-
   title = \markup {
-    \override #'(font-name . "SimHei")
-    "清华大学校歌"
+    \override #'(font-name . "PMingLiU")
+    "清華大學校歌"
   }
   subtitle = \markup {
-    \override #'(font-name . "SimSun" )
-    "1923年创作"
+    \override #'(font-name . "PMingLiU" )
+    "1923年創作"
   }
   composer = \markup {
-    \override #'(font-name . "SimSun")
-    "张丽真曲"
+    \override #'(font-name . "PMingLiU")
+    "張麗真 作曲"
   }
   poet = \markup {
-    \override #'(font-name . "SimSun")
-    "汪鸾翔词"
+    \override #'(font-name . "PMingLiU")
+    "汪鸞翔 作詞"
   }
   copyright = \markup { \with-url #"https://github.com/luminr/xiao-ge"  { https://github.com/luminr/xiao-ge } CC-BY-SA 4.0 }
   tagline = \markup { Engraved at \simple #(strftime "%Y-%m-%d" (localtime (current-time))) with  LilyPond \simple #(lilypond-version) }
@@ -36,31 +35,31 @@
   }
   \addlyrics  {
     \set stanza = "(一)"
-    西 山 苍 苍，  东 海 茫 茫，  吾 校 庄 严，  巍 然 中 央，
-    东 西 文 化，  荟 萃 一 堂，  大 同 爰 跻，  祖 国 以 光。
-    莘 莘 学 子 来 远 方，  莘 莘 学 子 来 远 方，
-    春 风 化 雨 乐 未 央，  行 健 不 息 须 自 强。
-    自 强，  自 强，  行 健 不 息 须 自 强！
-    自 强，  自 强，  行 健 不 息 须 自 强！
+    西 山 蒼 蒼 東 海 茫 茫 吾 校 莊 嚴 巍 然 中 央
+    東 西 文 化 薈 萃 一 堂 大 同 爰 躋 祖 國 以 光
+    莘 莘 學 子 來 遠 方 莘 莘 學 子 來 遠 方
+    春 風 化 雨 樂 未 央 行 健 不 息 須 自 強
+    自 強 自 強 行 健 不 息 須 自 強
+    自 強 自 強 行 健 不 息 須 自 強
   }
   \addlyrics  {
     \set stanza = "(二)"
-    左 图 右 史，  邺 架 巍 巍，  致 知 穷 理，  学 古 探 微，
-    新 旧 合 冶，  殊 途 同 归，  肴 核 仁 义，  闻 道 日 肥。
-    服 膺 守 善 心 无 违，  服 膺 守 善 心 无 违，
-    海 能 就 下 众 水 归，  学 问 笃 实 生 光 辉。
-    光 辉，  光 辉，  学 问 笃 实 生 光 辉！
-    光 辉，  光 辉，  学 问 笃 实 生 光 辉！
+    左 圖 右 史 鄴 架 巍 巍 致 知 窮 理 學 古 探 微
+    新 舊 合 冶 殊 途 同 歸 肴 核 仁 義 聞 道 日 肥
+    服 膺 守 善 心 無 違 服 膺 守 善 心 無 違
+    海 能 就 下 眾 水 歸 學 問 篤 實 生 光 輝
+    光 輝 光 輝 學 問 篤 實 生 光 輝
+    光 輝 光 輝 學 問 篤 實 生 光 輝
   }
 
   \addlyrics  {
     \set stanza = "(三)"
-    器 识 为 先，  文 艺 其 从；  立 德 立 言，  无 问 西 东。
-    孰 绍 介 是，  吾 校 之 功，  同 仁 一 视，  泱 泱 大 风。
-    水 木 清 华 众 秀 钟，  水 木 清 华 众 秀 钟，
-    万 悃 如 一 矢 以 忠，  赫 赫 吾 校 名 无 穷。
-    无 穷，  无 穷，  赫 赫 吾 校 名 无 穷！
-    无 穷，  无 穷，  赫 赫 吾 校 名 无 穷！
+    器 識 為 先 文 藝 其 從 立 德 立 言 無 問 西 東
+    孰 紹 介 是 吾 校 之 功 同 仁 一 視 泱 泱 大 風
+    水 木 清 華 眾 秀 鍾 水 木 清 華 眾 秀 鍾
+    萬 悃 如 一 矢 以 忠 赫 赫 吾 校 名 無 窮
+    無 窮 無 窮 赫 赫 吾 校 名 無 窮
+    無 窮 無 窮 赫 赫 吾 校 名 無 窮
   }
 
   \layout {

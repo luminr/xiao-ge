@@ -10,11 +10,11 @@
   }
   composer = \markup {
     \override #'(font-name . "PMingLiU")
-    "楊蔭溥作曲"
+    "楊蔭溥 作曲"
   }
   poet = \markup {
     \override #'(font-name . "PMingLiU")
-    "童伯章作詞"
+    "童伯章 作詞"
   }
   copyright = \markup { \with-url #"https://github.com/luminr/xiao-ge"  { https://github.com/luminr/xiao-ge } CC-BY-SA 4.0 }
   tagline = \markup { Engraved at \simple #(strftime "%Y-%m-%d" (localtime (current-time))) with  LilyPond \simple #(lilypond-version) }

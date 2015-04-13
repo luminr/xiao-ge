@@ -10,17 +10,29 @@
   }
   composer = \markup {
     \override #'(font-name . "PMingLiU")
-    "劉質平作曲"
+    "劉質平 作曲"
   }
   poet = \markup {
     \override #'(font-name . "PMingLiU")
-    "王季思作詞"
+    "王季思 作詞"
   }
   copyright = \markup { \with-url #"https://github.com/luminr/xiao-ge"  { https://github.com/luminr/xiao-ge } CC-BY-SA 4.0 }
   tagline = \markup { Engraved at \simple #(strftime "%Y-%m-%d" (localtime (current-time))) with  LilyPond \simple #(lilypond-version) }
 }
 
-verse = \lyricmode { 大 哉 師 道 天 下 尊， 承 往 哲 兮 啟 後 人。  厚 培 德 本， 深 濬 智 源， 學 成 致 用 教 化 諄。  光 大 國 族 兮， 造 福 人 群。  東 海 水， 雁 盪 山， 我 溫 師 精 神， 浩 浩 宕 宕。 }
+verse = \lyricmode {
+  大 哉 師 道 天 下 尊
+  承 往 哲 兮 啟 後 人
+  厚 培 德 本
+  深 濬 智 源
+  學 成 致 用 教 化 諄
+  光 大 國 族 兮
+  造 福 人 群
+  東 海 水
+  雁 盪 山
+  我 溫 師 精 神
+  浩 浩 宕 宕
+}
 \score{
   {
     \transpose c f \relative c' \new ChoirStaff

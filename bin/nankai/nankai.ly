@@ -1,16 +1,16 @@
 \version "2.19.17"
 \header {
   title = \markup {
-    \override #'(font-name . "SimHei")
-    "南开大学校歌"
+    \override #'(font-name . "PMingLiU")
+    "南開大學校歌"
   }
   subtitle = \markup {
-    \override #'(font-name . "SimSun" )
+    \override #'(font-name . "PMingLiU" )
     "1919年"
   }
   composer = \markup {
-    \override #'(font-name . "SimSun" )
-    "德国民歌"
+    \override #'(font-name . "PMingLiU" )
+    "德國民歌"
     \italic
     "O Tannenbaum"
   }
@@ -20,11 +20,11 @@
 }
 
 verse = \lyricmode {
-  渤 海 之 滨  白 河 之 津  巍 巍 我 南 开 精 神
-  汲 汲 駸 駸  月 异 日 新  发 煌 我 前 途 无 垠
-  美 哉 大 仁  智 勇 真 纯
-  以 铸 以 陶  文 质 彬 彬
-  渤 海 之 滨  白 河 之 津  巍 巍 我 南 开 精 神
+  渤 海 之 濱 白 河 之 津 巍 巍 我 南 開 精 神
+  汲 汲 駸 駸 月 異 日 新 發 煌 我 前 途 無 垠
+  美 哉 大 仁 智 勇 真 純
+  以 鑄 以 陶 文 質 彬 彬
+  渤 海 之 濱 白 河 之 津 巍 巍 我 南 開 精 神
 }
 
 \score{
@@ -82,7 +82,7 @@ verse = \lyricmode {
     \override Lyrics.LyricText.self-alignment-X = #LEFT
     \override Lyrics.LyricText.font-size = #-1
     \override Score.SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/32)
-    \override LyricText.font-name = #"SimSun"
+    \override LyricText.font-name = #"PMingLiU"
   }
   \midi { \tempo 4 = 100 }
 }

@@ -10,11 +10,11 @@
   }
   composer = \markup {
     \override #'(font-name . "PMingLiU")
-    "趙元任作曲"
+    "趙元任 作曲"
   }
   poet = \markup {
     \override #'(font-name . "PMingLiU")
-    "鄭貞文作詞"
+    "鄭貞文 作詞"
   }
   copyright = \markup { \with-url #"https://github.com/luminr/xiao-ge"  { https://github.com/luminr/xiao-ge } CC-BY-SA 4.0 }
   tagline = \markup { Engraved at \simple #(strftime "%Y-%m-%d" (localtime (current-time))) with  LilyPond \simple #(lilypond-version) }
@@ -38,16 +38,16 @@
     }
     \addlyrics {
       \set stanza = "(一)"
-      自 強！ 自 強！ 學 海 何 洋 洋！
-      誰 歟 操 鑰 發 其 藏？
-      鷺 江 深 且 長， 致 吾 知 與 無 央。
-      籲 嗟 乎！ 南 方 之 強！ 籲 嗟 乎！ 南 方 之 強！
+      自 強 自 強 學 海 何 洋 洋
+      誰 歟 操 鑰 發 其 藏
+      鷺 江 深 且 長 致 吾 知 與 無 央
+      籲 嗟 乎 南 方 之 強 籲 嗟 乎 南 方 之 強
 
       \set stanza = "(二)"
-      自 強！ 自 強！ 人 生 何 茫 茫！
-      誰 歟 普 渡 架 慈 航？
-      鷺 江 深 且 長， 充 吾 愛 與 無 疆。
-      籲 嗟 乎！ 南 方 之 強！ 籲 嗟 乎！ 南 方 之 強！
+      自 強 自 強 人 生 何 茫 茫
+      誰 歟 普 渡 架 慈 航
+      鷺 江 深 且 長 充 吾 愛 與 無 疆
+      籲 嗟 乎 南 方 之 強 籲 嗟 乎 南 方 之 強
     }
   }
   \layout {

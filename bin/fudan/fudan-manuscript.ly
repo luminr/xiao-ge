@@ -1,25 +1,25 @@
 \version "2.18.2"
 \header {
   subsubtitle = \markup {
-    \override #'(font-name . "SimSun")
-    "曲调自1815-1932年荷兰国歌《尼德兰人的血脉》"
+    \override #'(font-name . "PMingLiU")
+    "曲調自1815年至1932年年荷蘭國歌『尼德蘭人的血脈』"
   }
   title = \markup {
-    \override #'(font-name . "SimHei")
-    "复旦大学校歌"
+    \override #'(font-name . "PMingLiU")
+    "復旦大學校歌"
   }
 
   subtitle = \markup {
-    \override #'(font-name . "SimSun" )
+    \override #'(font-name . "PMingLiU" )
     "1925年"
   }
   composer = \markup {
-    \override #'(font-name . "SimSun")
-    "刘大白词"
+    \override #'(font-name . "PMingLiU")
+    "劉大白 作詞"
   }
   poet = \markup {
-    \override #'(font-name . "SimSun")
-    "丰子恺曲"
+    \override #'(font-name . "PMingLiU")
+    "豐子愷 作曲"
   }
   copyright = \markup { \with-url #"https://github.com/luminr/xiao-ge"  { https://github.com/luminr/xiao-ge } CC-BY-SA 4.0 }
   tagline = \markup { Engraved at \simple #(strftime "%Y-%m-%d" (localtime (current-time))) with  LilyPond \simple #(lilypond-version) }
@@ -46,15 +46,39 @@
       >>
       \new Lyrics \lyricsto "aligner" {
         \set stanza = "(一)"
-        复 旦 复 旦 旦 复 旦， 巍 巍 学 府 文 章 焕：  学 术 独 立 思 想 自 由， 政 罗 教 网 无 羁 绊。  无 羁 绊， 前 程 远； 向 前！ 向 前！ 向 前 进 展！  复 旦 复 旦 旦 复 旦， 日 月 光 华 同 灿 烂！ 同 灿 烂！
+        復 旦 復 旦 旦 復 旦
+        巍 巍 學 府 文 章 煥
+        學 術 獨 立 思 想 自 由
+        政 羅 教 網 無 羈 絆
+        無 羈 絆 前 程 遠
+        向 前 向 前 向 前 進 展
+        復 旦 復 旦 旦 復 旦
+        日 月 光 華 同 燦 爛
+        同 燦 爛
       }
       \new Lyrics \lyricsto "aligner" {
         \set stanza = "(二)"
-        复 旦 复 旦 旦 复 旦， 师 生 一 德 精 神 贯：  巩 固 学 校 维 护 国 家， 先 忧 后 乐 交 相 勉。  交 相 勉， 前 程 远； 向 前！ 向 前！ 向 前 进 展！  复 旦 复 旦 旦 复 旦， 日 月 光 华 同 灿 烂！ 同 灿 烂！
+        復 旦 復 旦 旦 復 旦
+        師 生 一 德 精 神 貫
+        鞏 固 學 校 維 護 國 家
+        先 憂 後 樂 交 相 勉
+        交 相 勉 前 程 遠
+        向 前 向 前 向 前 進 展
+        復 旦 復 旦 旦 復 旦
+        日 月 光 華 同 燦 爛
+        同 燦 爛
       }
       \new Lyrics \lyricsto "aligner" {
         \set stanza = "(三)"
-        复 旦 复 旦 旦 复 旦， 沪 滨 屹 立 东 南 冠：  作 育 国 士 恢 廓 学 风， 震 欧 铄 美 声 名 满。  声 名 满， 前 程 远； 向 前！ 向 前！ 向 前 进 展！  复 旦 复 旦 旦 复 旦， 日 月 光 华 同 灿 烂！ 同 灿 烂！
+        復 旦 復 旦 旦 復 旦
+        滬 濱 屹 立 東 南 冠
+        作 育 國 士 恢 廓 學 風
+        震 歐 鑠 美 聲 名 滿
+        聲 名 滿 前 程 遠
+        向 前 向 前 向 前 進 展
+        復 旦 復 旦 旦 復 旦
+        日 月 光 華 同 燦 爛
+        同 燦 爛
       }
       \new Staff \relative c <<
         {
@@ -82,7 +106,7 @@
     \override Lyrics.LyricText.self-alignment-X = #LEFT
     \override Lyrics.LyricText.font-size = #-1
     \override Lyrics.LyricText.font-name = #"PMingLiU"
-    \override Score.SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/32)
+    %\override Score.SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/32)
 
   }
   \midi { \tempo 4 = 100 }

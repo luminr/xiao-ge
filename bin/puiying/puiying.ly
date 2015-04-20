@@ -15,12 +15,12 @@
   {
     \transpose c aes \new ChoirStaff <<
       \new Staff \relative c' {
-        \key c \major \time 3/4 \tempo "Moderato" \dynamicUp
+        \key c \major \time 3/4 \tempo "Moderato" \dynamicUp \autoBeamOff
         <<
           {
-            c2 b8 \noBeam a | g4 g g | a4 c a | a4 g r | e'2\p\< d8 \noBeam d |
-            c2\> b8 \noBeam b\! | a4 g fis | g2. | c2^\markup { \dynamic mf \italic dolce } b8 \noBeam a | g4 g g | f'4 f e |
-            e4 d r | g2\f e8 \noBeam f8 | g4 s4 c,4 | f4 e d | c2. |
+            c2 b8 a | g4 g g | a4 c a | a4 g r | e'2\p\< d8 d |
+            c2\> b8  b\! | a4 g fis | g2. | c2^\markup { \dynamic mf \italic dolce } b8  a | g4 g g | f'4 f e |
+            e4 d r | g2\f e8 f8 | g4 s4 c,4 | f4 e d | c2. |
             \bar "|."
           }
           {
@@ -56,12 +56,12 @@
         我 愛 我 培 英 學 校 優 良 傳 統 白 綠 健 兒 一 家 親 情 誼 重 信 望 與 愛 陶 鑄 英 才 為 國 用 鷹 揚 長 空 廣 沐 化 雨 春 風
       }
       \new Staff \relative c{
-        \key c \major \clef bass
+        \key c \major \clef bass \autoBeamOff
         <<
           {
-            g2 g8 \noBeam c | c4 c c | c4 a c | c4 c r | << c2 \\ c2 >> d8 \noBeam d |
-            d2 d8 \noBeam d | c4 b a | b2. | g2 g8 \noBeam c | c4 c c | b4 b c |
-            c4 b r | e2 << { c8 \noBeam d8 } \\ { c8 \noBeam c8 } >>  | e4 d4 c4 | c4 c b | c2. |
+            g2 g8 c | c4 c c | c4 a c | c4 c r | << c2 \\ c2 >> d8  d |
+            d2 d8  d | c4 b a | b2. | g2 g8  c | c4 c c | b4 b c |
+            c4 b r | e2 << { c8  d8 } \\ { c8  c8 } >>  | e4 d4 c4 | c4 c b | c2. |
           }
           {
             c,2 c8  c | c4 c c | f4 f f | c4 c r | s2 b'8 b |
